@@ -1,0 +1,61 @@
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Framework-Generated Files
+.claude/
+*.backup.*
+*.backup
+*backup*
+*.bak
+*.bak.*
+VERSION.bak.*
+*.tmp
+*.log
+test_results.txt
+*_results.txt
+
+# Development Files
+node_modules/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS Generated Files
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Test Coverage
+coverage/
+*.lcov
+.nyc_output/
+coverage.json
+coverage-final.json
+
+# BATS Testing Framework
+tests/test-data/
+tests/tmp/
+tests/*.tmp
+tests/test-results/
+
+# Specification Files
+.sf/
+
+# Allow committed example output
+!examples/**/output/.sf/

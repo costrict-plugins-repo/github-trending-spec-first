@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "sf",
+  "version": "2.1.1",
+  "description": "Guides you from requirements to working code — define a spec, implement it, and generate docs, all from your terminal.",
+  "author": {
+    "name": "Szymon Graczyk",
+    "url": "https://github.com/bitcraft-apps"
+  },
+  "repository": "https://github.com/bitcraft-apps/spec-first",
+  "homepage": "https://github.com/bitcraft-apps/spec-first",
+  "license": "MIT",
+  "keywords": [
+    "spec-driven development",
+    "requirements",
+    "agent skills",
+    "code generation",
+    "documentation"
+  ]
+}
